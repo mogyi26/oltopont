@@ -1,5 +1,26 @@
-body { font-family: Arial, sans-serif; padding: 0; margin: 0; }
-nav ul { list-style-type: none; padding: 0; background: #333; }
-nav li { display: inline; }
-nav a { color: white; padding: 10px; display: inline-block; text-decoration: none; }
-nav a:hover { background: #444; }
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { background-color: #007bff; color: white; padding: 1em; text-align: center; }
+nav ul { list-style-type: none; background-color: #333; margin: 0; padding: 0; overflow: hidden; }
+nav li { float: left; }
+nav li a { display: block; color: white; padding: 0.75em 1em; text-decoration: none; }
+nav li a:hover { background-color: #111; }
+main { padding: 1em; }
+footer { background-color: #f1f1f1; text-align: center; padding: 1em; }
+
+form .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+form .form-row label {
+    width: 120px;            /* Címke fix szélessége */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+form .form-row input {
+    flex: 1;
+    padding: 5px;
+    max-width: 300px;
+}
