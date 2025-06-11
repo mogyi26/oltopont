@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; padding: 0; margin: 0; }
+nav ul { list-style-type: none; padding: 0; background: #333; }
+nav li { display: inline; }
+nav a { color: white; padding: 10px; display: inline-block; text-decoration: none; }
+nav a:hover { background: #444; }
