@@ -1,0 +1,1 @@
+<h2>Kezdőlap</h2><p>Üdvözöljük az Oltópont rendszerben!</p>
