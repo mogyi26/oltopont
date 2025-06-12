@@ -22,5 +22,12 @@ form .form-row label {
 form .form-row input {
     flex: 1;
     padding: 5px;
-    max-width: 300px;
+    max-width: 400px;
+}
+
+.form-row textarea {
+    flex: 1;
+    padding: 5px;
+    max-width: 600px;  /* vagy: 100%, vagy egyszerűen töröld ezt a sort */
+    resize: vertical;  /* csak függőlegesen lehessen átméretezni */
 }

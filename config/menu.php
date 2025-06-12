@@ -1,8 +1,11 @@
 <?php
 $menu = [
-    'home' => 'Kezdőlap',
+    'home' => 'Főoldall',
+    'pictures' => 'Képek',
     'contact' => 'Kapcsolat',
+    'messages' => 'Üzenetek',
     'login' => 'Belépés',
-    'register' => 'Regisztráció'
+    'register' => 'Regisztráció',
+    'logout' => 'Kilépés'
 ];
 ?>
